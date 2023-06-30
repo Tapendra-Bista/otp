@@ -1,0 +1,33 @@
+{
+  "name": "otp",
+  "version": "1.0.0",
+  "description": "pratice opt and nodemailer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tapendra-Bista/otp.git"
+  },
+  "author": "tapendra bista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tapendra-Bista/otp/issues"
+  },
+  "homepage": "https://github.com/Tapendra-Bista/otp#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "chuck": "^0.0.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.3.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1"
+  }
+}
